@@ -1,0 +1,11 @@
+name=True Borderless
+id=TrueBorderless
+author=Onza
+description=Borderless fullscreen for Build 42 that actually works, and an alt-tab that never blacks out. Ticking the vanilla borderless box usually looks like it does nothing: the engine skips repositioning the window whenever the fullscreen flag and the resolution both stayed the same, so it strips the frame and leaves the window exactly where it was. True Borderless drives the same display change in an order the engine cannot short-circuit, so the window really does land on the monitor, edge to edge, over the taskbar. It also remembers the display settings you had before it ever ran, so turning it off gives you your own configuration back instead of whatever the mod left behind. Toggle with F10, rebindable under Options, Key Bindings; settings under Options, Mod Options, True Borderless.
+description=
+description=SEAMLESS ALT-TAB - the part that needs the free helper. Windows promotes any borderless window whose rectangle matches a monitor exactly onto the fullscreen presentation path, and then alt-tab costs you the same black frame as real fullscreen. The fix is to hang the window one pixel off every edge so Windows leaves it composited like a normal window. A mod cannot do that from inside Lua. The helper script that does it is free and open source, one file, no install: https://github.com/watskybelfort/pz-true-borderless
+description=
+description=The mod on its own fixes borderless. The mod plus the helper makes alt-tab seamless.
+modversion=1.1.0
+versionMin=42.0
+poster=poster.png
