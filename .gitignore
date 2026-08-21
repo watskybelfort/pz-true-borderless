@@ -1,0 +1,6 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# Anything the helper produces at runtime lives in the Zomboid user folder,
+# never in here, so there is nothing else to ignore.
