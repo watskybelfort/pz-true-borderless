@@ -1,0 +1,12 @@
+# Everything here is run on Windows after being downloaded as a ZIP, and a
+# ZIP straight off GitHub carries whatever line endings the repository
+# stores. cmd.exe is not reliably happy with LF-only .bat files, so pin the
+# two files people actually execute to CRLF and stop guessing.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Everything else is read, not run.
+*.md   text eol=lf
+*.lua  text eol=lf
+*.info text eol=lf
+*.png  binary
