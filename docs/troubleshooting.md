@@ -116,7 +116,7 @@ often each one is the culprit:
   effect on the *next* launch.
 
 If all four say `ok` and it still flashes, the remaining suspect is Multi-Plane
-Overlay. There is a script for that in [`extras/`](../extras) — it needs
+Overlay. There is a script for that in [`extras/`](../extras/README.md) — it needs
 administrator rights and a reboot, and it is genuinely a last resort. Try everything
 above first; MPO is almost never the answer once the overscan is in place.
 
